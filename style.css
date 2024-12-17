@@ -1,0 +1,86 @@
+
+.{
+    margin: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+   
+    
+    background-image:url("Ascent\ 1\ [BG].png") ;
+    background-color: #0b0b0b;
+    color: #f4c20d;
+    line-height: 1.6;
+    max-width: 70%%;
+   
+    
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.header {
+    
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #f4c20d;
+    max-width:50%;
+}
+
+.content ul {
+    list-style-type: square;
+    
+    color: white;
+}
+.content{
+    max-width:40%;
+}
+
+
+.prizes {
+    display:grid;
+    grid-row-gap: 50px;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.box{
+    background-image:url(Agents\ button.png);
+
+    background-size:cover;
+    justify-content: center;
+
+
+
+}
+
+
+
+
+
+.box .title {
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+
+
+.robot-image img {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    max-width: 573px;
+    height:713px;
+}
